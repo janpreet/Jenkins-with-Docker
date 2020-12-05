@@ -1,4 +1,5 @@
 FROM jenkins/jenkins:lts
+LABEL Maintainer="Janpreet Singh"
 
 USER root
 RUN apt-get update && \
